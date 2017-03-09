@@ -1,0 +1,30 @@
+div {
+  width: 300px;
+  height: 100px;
+  background-color: #eee;
+  background-image: url(Identification.svg);
+  resize: both;
+  overflow: hidden;
+  border: solid 1px red;
+  background-position: left center;
+  background-repeat: repeat-x;
+}
+
+body {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+
+
+.repeat {
+  background-repeat: repeat;
+}
+
+.round {
+  background-repeat: round;
+}
+
+.space {
+  background-repeat: space;
+}
